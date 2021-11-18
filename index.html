@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chattie</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+	<span>
+	<div class="col-lg-10 col-md-6 col-sm-6 col-xs-11 login_div" 
+	     style="width:850px; height:950px; float:left; margin-top:10px; margin-left:20px;">
+		<h1 class="header">	
+			Chattie	<sup>
+		<img src="m2.png">
+		</sup>
+	</h1>
+	<h3 class="color_white">"Let's talk!"</h3>
+	<img src="download.png" class="logo">
+		<h3 class="color_white">See what is happening in the world</h3>
+		<hr>
+		<h4 class="color_white">Join Chattie today</h4>
+		<div class="form-group">
+		  <label class="color_white">Username:</label>
+         <input placeholder="Username" id="usernameinput" type="text" class="form-control">
+		 <br>
+		 <label class="color_white">Password: </label>
+         <input placeholder="Password" id="passwordinput" type="password" class="form-control">
+		 <br>
+		 <label class="color_white">Confirm password: </label>
+         <input placeholder="Password" id="passwordinput2" type="password" class="form-control">
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="login()" style="border-radius:10px;">Log in</button>
+		<div id="errormsg"></div>
+		<br>
+		<br>
+	</div>
+	<div style="float:right;">
+		<img src="How-to-stop-someone-reading-text-messages-iPhone-Featured.jpg" style="width:950px; height:980px;">
+	</div>
+</span>
+</center>
+</body>
+</html>
